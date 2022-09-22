@@ -1,13 +1,9 @@
 import React from "react";
 
-import { Outlet } from "react-router-dom";
-
 const HatsPage = () => (
-    <div>
-      <h1>HATS PAGE</h1>
-      <Outlet />
-      </div>
-   
-  );
+  <div>
+    <h1>HATS PAGE</h1>
+  </div>
+);
 
-  export default HatsPage;
+export default HatsPage;
