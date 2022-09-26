@@ -21,14 +21,14 @@ class Directory extends React.Component {
         title: 'jackets',
         imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
         id: 2,
-        linkURL: ''
+        linkURL: 'jackets'
 
       },
       {
         title: 'sneakers',
         imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
         id: 3,
-        linkURL: ''
+        linkURL: 'sneakers'
 
       },
       {
@@ -36,7 +36,7 @@ class Directory extends React.Component {
         imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
         size: 'large',
         id: 4,
-        linkURL: ''
+        linkURL: 'womens'
 
       },
       {
@@ -44,7 +44,7 @@ class Directory extends React.Component {
         imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
         size: 'large',
         id: 5,
-        linkURL: ''
+        linkURL: 'mens'
 
       }
       ]
