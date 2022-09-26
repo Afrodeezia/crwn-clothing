@@ -5,16 +5,19 @@ import { ReactComponent as Logo } from '../../assets/crown.svg';
 
 import './header.styles.scss';
 
-const Header = () => (
-  <nav className="header">
-    <Link className="logo-container" to="/">
-      <Logo className="logo" />
-    </Link>
-    <div>
-      <link className="option" to='/shop'>SHOP</link>
-      <link className="option" to='/shop'>CONTACT</link>
-    </div>
-  </nav>
-);
+const Header = () => {
+  return (
 
+    <nav className='header'>
+      <Link className='logo-container' to='/'>
+        <Logo className="logo" />
+      </Link>
+      <div className="options">
+        <Link className='option' to='/shop'>SHOP</Link>
+        <Link className='option' to='/shop'>CONTACT</Link>
+      </div>
+    </nav>
+  );
+}
 export default Header;
+
